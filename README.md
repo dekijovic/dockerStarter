@@ -7,7 +7,7 @@ Docker compose file creates 3 containers:
   * DB - database container on port 3306 where we create database 'mydatabase' and we set root password
   
   If you want to execute sql dump into your database, comment out line 39
-   # - ./devops/mysql/dump/:/docker-entrypoint-initdb.dit
+   *# - ./devops/mysql/dump/:/docker-entrypoint-initdb.dit
    
  ## Commands
 
